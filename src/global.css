@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    @apply bg-red-600 text-slate-100;
+}
+
+body {
+    @apply bg-black text-slate-100 text-sm;
+    @apply font-sans;
+}
+
+h1, h2 {
+    @apply font-serif;
+    @apply text-6xl text-red-600;
+}
