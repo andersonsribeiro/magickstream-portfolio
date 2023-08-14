@@ -1,8 +1,6 @@
 import { content } from "../Design/DesignContent";
-import { Videos } from "../data/Videos";
 
 export default function Content() {
-  const videos = Videos;
   return (
     <section id="design" className="text-center mb-14">
       <h2 className="mb-6">DESIGN</h2>

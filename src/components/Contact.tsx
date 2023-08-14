@@ -1,7 +1,4 @@
-import { Videos } from "./data/Videos";
-
 export default function Content() {
-  const videos = Videos;
   return (
     <section id="contact" className="text-center">
       <h2 className="mb-6">CONTACT</h2>

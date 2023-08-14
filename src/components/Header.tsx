@@ -7,9 +7,13 @@ export default function Header() {
         <img src={sigil} width="140" alt="" className=" mx-auto" />
       </p> */}
       <p>
-        <h1 className="text-6xl text-red-600 font-light">MAGICK STREAM</h1>
+        <h1 className="text-6xl text-red-600 font-light [text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5)]">
+          MAGICK STREAM
+        </h1>
         <small className="font-serif italic text-4xl">art by</small>
-        <h2 className=" text-6xl text-red-600 font-light">Anderson Ribeiro</h2>
+        <h2 className=" text-6xl text-red-600 font-light [text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5)]">
+          Anderson Ribeiro
+        </h2>
       </p>
       <p className=" font-sans text-xl">
         <a

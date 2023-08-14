@@ -1,7 +1,4 @@
-import { Videos } from "../data/Videos";
-
 export default function Content() {
-  const videos = Videos;
   return (
     <section
       id="mv"
@@ -10,7 +7,7 @@ export default function Content() {
       <h2 className="mb-6">MUSIC VIDEOS</h2>
       <iframe
         className="[aspect-ratio:16/9] w-full"
-        src="https://www.youtube.com/embed/WNGYALk9IPw?controls=0"
+        src="https://www.youtube.com/embed/LDHTRnymN6Y?modestbranding=1&autohide=1&showinfo=0&controls=0"
         title=""
         allow="autoplay; clipboard-write; encrypted-media; gyroscope;"
       ></iframe>
